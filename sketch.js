@@ -65,6 +65,9 @@ function draw() {
  text("Score = " + score,width-150,50);
  fill("gray");
 
+ text("Press [space] to JUMP",50,50);
+ fill("gray");
+
  if (gameState === play) {
   gameOver.visible = false;
   restart.visible = false;
