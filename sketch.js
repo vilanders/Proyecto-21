@@ -27,7 +27,8 @@ checkpoint = loadSound("checkpoint.mp3");
 }
 
 function setup() {
-meow.play(true);
+meow.play();
+meow.loop();
  createCanvas(windowWidth,windowHeight);
 
  walker = createSprite(50,height-70,20,50);
